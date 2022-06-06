@@ -1,0 +1,30 @@
+.leaflet-container .leaflet-popup-content {
+  margin: 0;
+}
+.leaflet-container .leaflet-popup-content-wrapper {
+  padding: 0;
+}
+.popup-map-right {
+  padding: 15px;
+}
+.popup-map {
+  width: 200px;
+}
+.popup-map-left img{
+  object-fit: contain;
+}
+
+.popup-close-button-map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  font: 16px/24px Tahoma, Verdana, sans-serif;
+  color: #757575;
+  text-decoration: none;
+  background: transparent;
+  cursor: pointer;
+}

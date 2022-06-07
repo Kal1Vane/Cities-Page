@@ -1,3 +1,19 @@
+# Личный проект «Шесть городов»
+
+Версия билда 1.0v 
+## 
+title: Cities Page
+
+## 
+Использованные инстументы: 
+* React
+* Redux
+* Jest
+* TypeScript
+* leaflet
+* Axios
+* Toastify
+
 # Руководство по работе с проектом
 
 Данный проект создан с помощью [Create React App](https://github.com/facebook/create-react-app).

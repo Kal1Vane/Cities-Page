@@ -69,6 +69,5 @@
     "transformIgnorePatterns": [
       "node_modules/(?!react-leaflet)/"
     ]
-  },
-  "homepage": "https://kal1vane.github.io/CitiesPage.git"
+  }
 }

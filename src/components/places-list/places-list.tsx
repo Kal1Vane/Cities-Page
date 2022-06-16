@@ -97,10 +97,10 @@ function PlacesList(props: PlacesList):JSX.Element {
           </div>
         </div>
         <h2 className="place-card__name">
-          <Link onClick={(evt) => {
-            evt.preventDefault();
-            dispatch(redirectToRoute(`property/${card.id}`));
-          }} to='\'
+          <Link 
+            to={`property/${card.id}`}
+
+          }}
           >
             {card.title}
           </Link>

@@ -141,7 +141,7 @@ function Property() :JSX.Element {
                   >
                     <img
                       className="property__avatar user__avatar"
-                      src={currentCard.host.avatarUrl}
+                      src={`/${currentCard.host.avatarUrl}`}
                       width={74}
                       height={74}
                       alt="Host avatar"

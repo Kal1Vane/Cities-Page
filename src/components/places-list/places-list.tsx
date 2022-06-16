@@ -52,10 +52,7 @@ function PlacesList(props: PlacesList):JSX.Element {
       <div className={ `place-card__image-wrapper ${getScreenClassList(screenType)[1]}`}>
         <Link
           data-testid="linkOffer"
-          onClick={(evt) => {
-            evt.preventDefault();
-            dispatch(redirectToRoute(`property/${card.id}`));
-          }} to='\'
+          to={`/property/${card.id}`}
         >
           <img className="place-card__image" src={card.previewImage} width="260" height="200" alt="Photo studio" />
         </Link>

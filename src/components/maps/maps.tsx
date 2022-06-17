@@ -75,7 +75,7 @@ function Maps (props: MapScreenProps): JSX.Element{
                 </div>
                 <div  className='popup-map-right'>
                   <h2 className="place-card__name">
-                    <Link to={`property/${offer.id} `}>
+                    <Link to={`/property/${offer.id} `}>
                       {offer.title}
                     </Link>
                   </h2>
